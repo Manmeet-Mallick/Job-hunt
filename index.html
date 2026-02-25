@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icon cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- ADS CSS-->
+     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+     <link rel="stylesheet" href="style.css">
+     <title>Job Search</title>
+    </head>
+    <body>
+        <!-- main section-->
+         <div class="main">
+            <div class="overlay">
+                <header id="main-header" >
+                    <div class="container">
+                        <div class="logo">
+                            <i class="fa-solid fa-users-viewfinder"></i> FindJobs
+                        </div>
+                        
+                        <nav id="nav">
+                           <a href="#Home">Home</a>
+                           <a href="#Employer">Employer</a>
+                           <a href="#Candidates">Candidates</a>
+                           <a href="#Pages">Pages</a>
+                           <a href="#Contact">Contact</a>
+                        </nav>
+                        
+                        <div class="aut-buttons">
+                            <button class="commonBtn"><i class="fa-solid fa-user"></i>Login
+                            </button>
+                            <button class="commonBtn"><i class="fa-solid fa-right-to-bracket"></i> Register
+                            </button>
+                        </div>
+                        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+                    </div>
+                </header>
+                <!-- hero Section -->
+                 <section class="hero" id="Home">
+                    <div class="container" data-aos="fade-right">
+                        <h1>Search  Between More <br/> Then <span>50,000</span> Open Jobs</h1>
+                        <div class="keywords">
+                            <span>Trending Jobs Keywords</span>
+                            <a href="#">Web Designer,</a>
+                            <a href="#">Web Developer,</a>
+                            <a href="#">IOS Developer,</a>
+                            <a href="#">Android Developer,</a>
+                            <a href="#">Data Analyst,</a>
+                            <a href="#">AI Engineer.</a>
+                        </div>
+                        <div class="searchBar-outer">
+                            <div class="search-bar">
+                                <input type="text" placeholder="Search Keywords...">
+                                <select>
+                                    <option>Location</option>
+                                    <option>Hderabad</option>
+                                    <option>Banglore</option>
+                                    <option>Pune</option>
+                                    <option>Mumbai</option>
+                                    <option>Chennai</option>
+                                    <option>Jaypur</option>
+                                    <option>Chandigard</option>
+                                </select>
+                                <select>
+                                    <option>Category</option>
+                                    <option>Software devloper</option>
+                                    <option>Marketing</option>
+                                    <option>Sales</option>
+                                    <option>AI Engineer</option>
+                                    <option>CRM</option>
+                                </select>
+                                <button>SEARCH</button>
+                            </div>
+                        </div>
+
+                            <div class="user-area">
+                                <ul>
+                                    <li><img src="images/user1.jpg"></li>
+                                    <li><img src="images/user2.jpg"></li>
+                                    <li><img src="images/user3.jpg"></li>
+                                    <li><img src="images/user4.jpg"></li>
+                                    <li><img src="images/user5.jpg"></li>
+                                    <li>
+                                        <div class="total-user">
+                                             <h6>21K</h6>
+                                             <span>Users</span>
+                                        </div>  
+                                    </li>
+                                </ul>
+                                <p>To Much Pepole Have Connected With Us!</p>
+                            </div>
+                    </div>
+                 </section>
+            </div>
+        </div> 
+        <!-- SECOND HERO SECTION -->
+         <section class="hero-two" id="Employer">
+            <div class="container">
+                
+                <!-- LEFT SIDE -->
+                 <div class="hero-left">
+                    <h1>Suits Jobs For You.</h1>
+                    
+                    <p class="description">
+                       Discover jobs tailored to your talent and ambitions.
+                       Connect with top employers and take the next step in your career journey.
+                       Your future starts here.
+                    </p>
+                    
+                    <ul class="features">
+                        <li>Bookmark Jobs</li>
+                        <li>Apply with your Resume</li>
+                        <li>Get notified</li>
+                    </ul>
+                    <button class="btn-green">Browse Jobs</button>
+                </div>
+                
+                <!-- RIGHT SIDE -->
+                 <div class="hero-right">
+                    
+                    <img src="images/office.jpg" alt="Office Team">
+                    
+                    <div class="experience-box">
+                        <h2>25+</h2>
+                        <p>Years Of <br> <strong>Experience</strong></p>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="categories" id="Candidates">
+            <div class="container">
+                
+                <div class="section-title">
+                    <h2>Popular Job Categories</h2>
+                    <p>Browse the most in-demand job categories,
+                    Choose your field and discover exciting opportunities.</p>
+                    <p>2026 jobs live - 293 added today.</p>
+                </div>
+                 
+                 
+                <div class="category-grid">
+                    
+                    <!-- Card 1 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon-box">💰</div>
+                        <div>
+                            <h3>Accounting / Finance</h3>
+                            <span>(2 open positions)</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box">📢</div>
+                        <div>
+                            <h3>Marketing</h3>
+                            <span>(86 open positions)</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon-box">🎨</div>
+                        <div>
+                            <h3>Design</h3>
+                            <span>(43 open positions)</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 4 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon-box">💻</div>
+                        <div>
+                            <h3>Development</h3>
+                            <span>(12 open positions)</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 5 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon-box">👥</div>
+                        <div>
+                            <h3>Human Resource</h3>
+                            <span>(55 open positions)</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 6 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="icon-box">🚗</div>
+                        <div>
+                            <h3>Automotive Jobs</h3>
+                            <span>(2 open positions)</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="700">
+                        <div class="icon-box">🎧</div>
+                        <div>
+                            <h3>Customer Service</h3>
+                            <span>(2 open positions)</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 8 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="800">
+                        <div class="icon-box">❤️</div>
+                        <div>
+                            <h3>Health and Care</h3>
+                            <span>(25 open positions)</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 9 -->
+                    <div class="category-card" data-aos="fade-up" data-aos-delay="900">
+                        <div class="icon-box">📊</div>
+                        <div>
+                            <h3>Project Management</h3>
+                            <span>(92 open positions)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured" id="Pages">
+            <div class="container">
+                
+                <div class="section-title">
+                    <h2>Featured Jobs</h2>
+                    <p>Discover trending jobs across multiple industries.
+                        Apply now and take the next step in your career journey.</p>
+                </div>
+                
+                <div class="job-grid" id="jobGrid">
+                    <!-- Job Card 1 -->
+                     <div class="job-card" data-aos="zoom-in">
+                        <div class="job-left" >
+                            <div class="company-logo">S</div>
+                            <div>
+                                <h3>Software Engineer (Android), Libraries</h3>
+                                <p>SDLC • Banglore, India • 11 hours ago • $35k - $45k</p>
+                                <div class="tags">
+                                    <span class="full">Full Time</span>
+                                    <span class="private">Private</span>
+                                    <span class="urgent">Urgent</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bookmark">☆</div>
+                </div>
+
+            <!-- Job Card 2 -->
+            <div class="job-card" data-aos="fade-right">
+                <div class="job-left">
+                    <div class="company-logo blue">R</div>
+                    <div>
+                        <h3>Recruiting Coordinator</h3>
+                        <p>SHRM-CP • Pune, India • 11 hours ago • $35k - $45k</p>
+                        <div class="tags">
+                            <span class="freelance">Freelancer</span>
+                            <span class="private">Private</span>
+                            <span class="urgent">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookmark">☆</div>
+            </div>
+
+            <!-- Job Card 3 -->
+            <div class="job-card" data-aos="zoom-in">
+                <div class="job-left">
+                    <div class="company-logo black">M</div>
+                    <div>
+                        <h3>Product Manager, Studio</h3>
+                        <p>ERP systems • Chhenai, India • 11 hours ago • $35k - $45k</p>
+                        <div class="tags">
+                            <span class="part">Part Time</span>
+                            <span class="private">Private</span>
+                            <span class="urgent">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookmark">☆</div>
+            </div>
+
+            <!-- Job Card 4 -->
+            <div class="job-card" data-aos="fade-right">
+                <div class="job-left">
+                    <div class="company-logo green">U</div>
+                    <div>
+                        <h3>Senior Full Stack Engineer</h3>
+                        <p>Python• Hyderabad, India• 11 hours ago • $35k - $45k</p>
+                        <div class="tags">
+                            <span class="full">Full Time</span>
+                            <span class="private">Private</span>
+                            <span class="urgent">Urgent</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookmark">☆</div>
+            </div>
+
+        </div>
+
+        <div class="load-more">
+            <button onclick="loadMore()">Load More Listing</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= COUNTER SECTION ================= -->
+<section class="counter-section" data-aos="fade-up">
+    <div class="container">
+        <div class="counter-grid">
+
+            <div class="counter-box">
+                <h2 class="counter" data-target="5890">0</h2>
+                <p>Jobs Available</p>
+            </div>
+
+            <div class="counter-box">
+                <h2 class="counter" data-target="255472">0</h2>
+                <p>Members</p>
+            </div>
+
+            <div class="counter-box">
+                <h2 class="counter" data-target="51428">0</h2>
+                <p>Resumes</p>
+            </div>
+
+            <div class="counter-box">
+                <h2 class="counter" data-target="14200">0</h2>
+                <p>Company</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- NEWSLETTER SECTION -->
+<section class="newsletter" id="Contact">
+    <div class="newsletter-content">
+        <h2>Subscribe Our Newsletter!</h2>
+        <p>
+            Stay updated with the latest job opportunities and career tips.
+            Get notified instantly about new openings that match your skills.
+            Join our community and never miss your dream job.
+        </p>
+
+        <div class="subscribe-box">
+            <input type="email" id="email" placeholder="Enter your Email..." />
+            <button onclick="subscribe()">SUBSCRIBE</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- FOOTER SECTION -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3 class="logo">Find<span>Jobs</span></h3>
+            <p>We provide the latest job listings across multiple industries.
+             Our platform makes job searching simple, fast, and effective.</p>
+
+            <div class="social-icons">
+                <a href="#">F</a>
+                <a href="#">G+</a>
+                <a href="#">X</a>
+                <a href="#">IG</a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Job Categories</h4>
+            <ul>
+                <li>» Work from Home</li>
+                <li>» Internship Job</li>
+                <li>» Freelancer Job</li>
+                <li>» Part Time Job</li>
+                <li>» Full Time Job</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Job Type</h4>
+            <ul>
+                <li>» Create Account</li>
+                <li>» Career Counseling</li>
+                <li>» My Oficiona</li>
+                <li>» FAQ</li>
+                <li>» Report a Problem</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+                <li>» My Account</li>
+                <li>» Support</li>
+                <li>» How It Works</li>
+                <li>» Underwriting</li>
+                <li>» Employers</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li>» Jobs Listing</li>
+                <li>» About Us</li>
+                <li>» Contact Us</li>
+                <li>» Privacy Policy</li>
+                <li>» Term & Condition</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        Copyright © 2026 All Rights Reserved FindJobs.
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="custom.js"></script>
+<script>
+     AOS.init({ duration: 1000, once: true });
+</script>
+
+
+</body>
+</html>
